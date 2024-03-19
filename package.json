@@ -3,13 +3,14 @@
   "displayName": "barbie-light",
   "description": "A light based pink theme.",
   "version": "1.0.0",
+  "publisher": "timonviola",
   "engines": {
     "vscode": "^1.87.0"
   },
   "categories": [
     "Themes"
   ],
-  "contributes": {
+   "contributes": {
     "themes": [
       {
         "label": "barbie-light",
@@ -17,5 +18,9 @@
         "path": "./themes/barbie-light-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timonviola/barbie-light.vscode.git"
   }
 }
