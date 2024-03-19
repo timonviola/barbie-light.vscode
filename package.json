@@ -1,0 +1,21 @@
+{
+  "name": "barbie-light",
+  "displayName": "barbie-light",
+  "description": "A light based pink theme.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "barbie-light",
+        "uiTheme": "vs",
+        "path": "./themes/barbie-light-color-theme.json"
+      }
+    ]
+  }
+}
